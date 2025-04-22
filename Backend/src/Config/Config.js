@@ -3,9 +3,9 @@ config()
 
 const _config = {
     port : process.env.PORT,
-    mongoURL : process.env.MONGO_URI
+    mongoURI : process.env.MONGO_URI
 }  
-export default Object.freeze(_config)
+module.exports=  Object.freeze(_config)
 
          
 
